@@ -24,7 +24,4 @@ ActiveRecord::Schema.define(version: 20180606144409) do
     t.string "department"
   end
 
-  create_table "patients", force: :cascade do |t|
-  end
-
 end
